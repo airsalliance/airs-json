@@ -13,375 +13,21 @@
                 "SoftwareVersion": "String",
                 "TaxonomyVersion": "2001-12-17T09:30:47Z",
                 "SchemaVersion": "String",
-                "xsi:schemaLocation": "http://www.airs.org/schema/4_0_0/AIRS.xsd airs010_draft0215.xsd",
+                "xsi:schemaLocation": "http://www.airs.org/schema/4_0_0/AIRS.xsd airs0217.xsd",
                 "Agency": {
-                        "OrganizationID": 0,
-                        "ID": "String",
-                        "OrganizationName": "String",
+                        "AgencyID": "String",
+                        "VendorInternalID": "String",
+                        "AgencyName": "String",
                         "Description": "String",
                         "AlternateName": {
-                                "Name": "String",
+                                "AlternateName": "String",
                                 "Confidential": true,
                                 "Description": "String"
-                        },
-                        "Site": {
-                                "ID": "String",
-                                "AgencyID": 0,
-                                "Title": "String",
-                                "Description": "String",
-                                "Directions": "String",
-                                "AlternateName": {
-                                        "Name": "String",
-                                        "Confidential": true,
-                                        "Description": "String"
-                                },
-                                "MailingAddress": {
-                                        "AddressID": "String",
-                                        "Line1": "String",
-                                        "Line2": "String",
-                                        "City": "String",
-                                        "County": "String",
-                                        "State": "String",
-                                        "ZipCode": "String",
-                                        "Country": "String",
-                                        "Confidential": true,
-                                        "Description": "String",
-                                        "ReasonWithheld": "String",
-                                        "IsMainAgencyAddress": true,
-                                        "IsPhysicalAddress": true,
-                                        "IsMailingAddress": true,
-                                        "MetaData": {
-                                                "ID": "String",
-                                                "ResourceID": "String",
-                                                "FieldName": "String",
-                                                "PreviousValue": "String",
-                                                "UpdatedBy": "String"
-                                        }
-                                },
-                                "PhysicalAddress": {
-                                        "AddressID": "String",
-                                        "Line1": "String",
-                                        "Line2": "String",
-                                        "City": "String",
-                                        "County": "String",
-                                        "State": "String",
-                                        "ZipCode": "String",
-                                        "Country": "String",
-                                        "Confidential": true,
-                                        "Description": "String",
-                                        "ReasonWithheld": "String",
-                                        "IsMainAgencyAddress": true,
-                                        "IsPhysicalAddress": true,
-                                        "IsMailingAddress": true,
-                                        "MetaData": {
-                                                "ID": "String",
-                                                "ResourceID": "String",
-                                                "FieldName": "String",
-                                                "PreviousValue": "String",
-                                                "UpdatedBy": "String"
-                                        }
-                                },
-                                "NoPhysicalAddress": {
-                                        "NoPhysicalAddress": true,
-                                        "Description": "String",
-                                        "Explanation": "String"
-                                },
-                                "OtherAddress": {
-                                        "AddressID": "String",
-                                        "Line1": "String",
-                                        "Line2": "String",
-                                        "City": "String",
-                                        "County": "String",
-                                        "State": "String",
-                                        "ZipCode": "String",
-                                        "Country": "String",
-                                        "Confidential": true,
-                                        "Description": "String",
-                                        "ReasonWithheld": "String",
-                                        "IsMainAgencyAddress": true,
-                                        "IsPhysicalAddress": true,
-                                        "IsMailingAddress": true,
-                                        "MetaData": {
-                                                "ID": "String",
-                                                "ResourceID": "String",
-                                                "FieldName": "String",
-                                                "PreviousValue": "String",
-                                                "UpdatedBy": "String"
-                                        }
-                                },
-                                "CrossStreet": "String",
-                                "Phone": {
-                                        "Phone": "String",
-                                        "Confidential": true,
-                                        "ReasonWithheld": "String",
-                                        "Description": "String",
-                                        "Type": "String",
-                                        "Function": "String",
-                                        "TollFree": true,
-                                        "Department": "String",
-                                        "CountryPrefix": "String"
-                                },
-                                "URL": {
-                                        "Address": "String",
-                                        "Note": "String"
-                                },
-                                "InternetResource": {
-                                        "Url": "String",
-                                        "Description": "String"
-                                },
-                                "Email": "A@A.AA",
-                                "Contact": {
-                                        "ID": "String",
-                                        "OrganizationID": "String",
-                                        "ServiceID": "String",
-                                        "Department": "String",
-                                        "Title": "String",
-                                        "Name": "String",
-                                        "Nickname": "String",
-                                        "ContactEmail": "A@A.AA",
-                                        "ContactPhone": {
-                                                "Phone": "String",
-                                                "Confidential": true,
-                                                "ReasonWithheld": "String",
-                                                "Description": "String",
-                                                "Type": "String",
-                                                "Function": "String",
-                                                "TollFree": true,
-                                                "Department": "String",
-                                                "CountryPrefix": "String"
-                                        },
-                                        "ContactType": "String"
-                                },
-                                "OpenHours": {
-                                        "dayOpen": "Sunday",
-                                        "TimeOpens": "09:30:47+05:00",
-                                        "TimeCloses": "09:30:47+05:00"
-                                },
-                                "SpecialHours": {
-                                        "SpecialHoursStartDate": "1957-08-13",
-                                        "SpecialHoursEndDate": "1957-08-13",
-                                        "SpecialOpenTime": "09:30:47+05:00",
-                                        "SpecialCloseTime": "09:30:47+05:00"
-                                },
-                                "Languages": {
-                                        "Name": "String",
-                                        "LanguageHours": {
-                                                "dayOpen": "Tuesday",
-                                                "TimeOpens": "09:30:47+05:00",
-                                                "TimeCloses": "09:30:47+05:00"
-                                        },
-                                        "Notes": "String"
-                                },
-                                "DisabilitiesAccess": "String",
-                                "PhysicalLocationDescription": "String",
-                                "BusServiceAccess": "String",
-                                "SpatialLocation": {
-                                        "Description": "String",
-                                        "Datum": "String",
-                                        "Latitude": "+0.0",
-                                        "Longitude": "+0.0"
-                                },
-                                "Status": "inactive",
-                                "PublicAccessToTransportation": true,
-                                "ExcludeFromWebsite": true,
-                                "ExcludeFromDirectory": true,
-                                "MetaData": {
-                                        "ID": "String",
-                                        "ResourceID": "String",
-                                        "FieldName": "String",
-                                        "PreviousValue": "String",
-                                        "UpdatedBy": "String"
-                                }
-                        },
-                        "ServiceGroup": {
-                                "ID": "String",
-                                "Name": "String",
-                                "ProgramName": "String",
-                                "Description": "String",
-                                "ApplicationProcess": {
-                                        "Title": "String",
-                                        "Description": "String"
-                                }
-                        },
-                        "Service": {
-                                "ID": "String",
-                                "AgencyID": "String",
-                                "ID": "String",
-                                "WaitTime": "String",
-                                "ApplicationProcess": {
-                                        "Title": "String",
-                                        "Description": "String"
-                                },
-                                "ServiceGroupID": 0,
-                                "MetaData": {
-                                        "ID": "String",
-                                        "ResourceID": "String",
-                                        "FieldName": "String",
-                                        "PreviousValue": "String",
-                                        "UpdatedBy": "String"
-                                }
-                        },
-                        "SiteService": {
-                                "Name": "String",
-                                "ID": "String",
-                                "SiteID": "String",
-                                "ServiceID": "String",
-                                "Description": "String",
-                                "Phone": {
-                                        "Phone": "String",
-                                        "Confidential": true,
-                                        "ReasonWithheld": "String",
-                                        "Description": "String",
-                                        "Type": "String",
-                                        "Function": "String",
-                                        "TollFree": true,
-                                        "Department": "String",
-                                        "CountryPrefix": "String"
-                                },
-                                "Contact": {
-                                        "ID": "String",
-                                        "OrganizationID": "String",
-                                        "ServiceID": "String",
-                                        "Department": "String",
-                                        "Title": "String",
-                                        "Name": "String",
-                                        "Nickname": "String",
-                                        "ContactEmail": "A@A.AA",
-                                        "ContactPhone": {
-                                                "Phone": "String",
-                                                "Confidential": true,
-                                                "ReasonWithheld": "String",
-                                                "Description": "String",
-                                                "Type": "String",
-                                                "Function": "String",
-                                                "TollFree": true,
-                                                "Department": "String",
-                                                "CountryPrefix": "String"
-                                        },
-                                        "ContactType": "String"
-                                },
-                                "URL": {
-                                        "Address": "String",
-                                        "Note": "String"
-                                },
-                                "Email": "A@A.AA",
-                                "OpenHours": {
-                                        "dayOpen": "Wednesday",
-                                        "TimeOpens": "09:30:47+05:00",
-                                        "TimeCloses": "09:30:47+05:00"
-                                },
-                                "SpecialHours": {
-                                        "SpecialHoursStartDate": "1957-08-13",
-                                        "SpecialHoursEndDate": "1957-08-13",
-                                        "SpecialOpenTime": "09:30:47+05:00",
-                                        "SpecialCloseTime": "09:30:47+05:00"
-                                },
-                                "Seasonal": {
-                                        "Description": "String",
-                                        "SpecialHoursStartDate": "1957-08-13",
-                                        "SpecialHoursEndDate": "1957-08-13",
-                                        "SpecialOpenTime": "09:30:47+05:00",
-                                        "SpecialCloseTime": "09:30:47+05:00"
-                                },
-                                "Taxonomy": {
-                                        "taxonomyCode": "String",
-                                        "taxonomyTerm": "String"
-                                },
-                                "Languages": {
-                                        "Name": "String",
-                                        "LanguageHours": {
-                                                "dayOpen": "Saturday",
-                                                "TimeOpens": "09:30:47+05:00",
-                                                "TimeCloses": "09:30:47+05:00"
-                                        },
-                                        "Notes": "String"
-                                },
-                                "TranslationService": "String",
-                                "ServiceArea": {
-                                        "Name": "String",
-                                        "ZipCode": "String",
-                                        "CensusTract": "String",
-                                        "City": "String",
-                                        "County": "String",
-                                        "State": "String",
-                                        "Country": "String",
-                                        "Description": "String",
-                                        "CustomAreaLabel": "String"
-                                },
-                                "ResourceInfo": {
-                                        "Contact": {
-                                                "ID": "String",
-                                                "OrganizationID": "String",
-                                                "ServiceID": "String",
-                                                "Department": "String",
-                                                "Title": "String",
-                                                "Name": "String",
-                                                "Nickname": "String",
-                                                "ContactEmail": "A@A.AA",
-                                                "ContactPhone": {
-                                                        "Phone": "String",
-                                                        "Confidential": true,
-                                                        "ReasonWithheld": "String",
-                                                        "Description": "String",
-                                                        "Type": "String",
-                                                        "Function": "String",
-                                                        "TollFree": true,
-                                                        "Department": "String",
-                                                        "CountryPrefix": "String"
-                                                },
-                                                "ContactType": "String"
-                                        },
-                                        "ResourceSpecialist": "String",
-                                        "AvailableForDirectory": true,
-                                        "AvailableForReferral": true,
-                                        "AvailableForResearch": true,
-                                        "DateAdded": "1957-08-13",
-                                        "DateLastVerified": "1957-08-13",
-                                        "DateOfLastAction": "1957-08-13",
-                                        "LastActionType": "String"
-                                },
-                                "InternetResource": {
-                                        "Url": "String",
-                                        "Description": "String"
-                                },
-                                "DocumentsRequired": {
-                                        "DocumentTitle": "String",
-                                        "Description": "String"
-                                },
-                                "ApplicationProcess": {
-                                        "Title": "String",
-                                        "Description": "String"
-                                },
-                                "FeeStructure": "String",
-                                "PaymentMethodAccepted": "String",
-                                "GeneralEligibility": "String",
-                                "AgeRequirement": {
-                                        "MinimumAge": "String",
-                                        "MaximumAge": "String"
-                                },
-                                "GenderRequirement": {
-                                        "Gender": "String",
-                                        "MinimumAge": "String",
-                                        "MaximumAge": "String"
-                                },
-                                "FamilyRequirements": "String",
-                                "IncomeRequirements": "String",
-                                "ResidencyRequirements": "String",
-                                "Status": "inactive",
-                                "ServiceNotAlwaysAvailable": true,
-                                "ServiceGroupID": 0,
-                                "MetaData": {
-                                        "ID": "String",
-                                        "ResourceID": "String",
-                                        "FieldName": "String",
-                                        "PreviousValue": "String",
-                                        "UpdatedBy": "String"
-                                }
                         },
                         "ResourceInfo": {
                                 "Contact": {
                                         "ID": "String",
-                                        "OrganizationID": "String",
+                                        "AgencyID": "String",
                                         "ServiceID": "String",
                                         "Department": "String",
                                         "Title": "String",
@@ -428,7 +74,7 @@
                         "Email": "A@A.AA",
                         "Contact": {
                                 "ID": "String",
-                                "OrganizationID": "String",
+                                "AgencyID": "String",
                                 "ServiceID": "String",
                                 "Department": "String",
                                 "Title": "String",
@@ -456,7 +102,7 @@
                         "Funding": {
                                 "Source": "String",
                                 "ID": "String",
-                                "OrganizationID": "String",
+                                "AgencyID": "String",
                                 "Service": "String"
                         },
                         "ExcludeFromWebsite": true,
@@ -469,6 +115,427 @@
                                 "FieldName": "String",
                                 "PreviousValue": "String",
                                 "UpdatedBy": "String"
+                        }
+                },
+                "Site": {
+                        "ID": "String",
+                        "AgencyID": "String",
+                        "Title": "String",
+                        "Description": "String",
+                        "Directions": "String",
+                        "AlternateName": {
+                                "AlternateName": "String",
+                                "Confidential": true,
+                                "Description": "String"
+                        },
+                        "MailingAddress": {
+                                "AddressID": "String",
+                                "Line1": "String",
+                                "Line2": "String",
+                                "City": "String",
+                                "County": "String",
+                                "State": "String",
+                                "ZipCode": "String",
+                                "Country": "String",
+                                "Confidential": true,
+                                "Description": "String",
+                                "ReasonWithheld": "String",
+                                "IsMainAgencyAddress": true,
+                                "IsPhysicalAddress": true,
+                                "IsMailingAddress": true,
+                                "MetaData": {
+                                        "ID": "String",
+                                        "ResourceID": "String",
+                                        "FieldName": "String",
+                                        "PreviousValue": "String",
+                                        "UpdatedBy": "String"
+                                }
+                        },
+                        "PhysicalAddress": {
+                                "AddressID": "String",
+                                "Line1": "String",
+                                "Line2": "String",
+                                "City": "String",
+                                "County": "String",
+                                "State": "String",
+                                "ZipCode": "String",
+                                "Country": "String",
+                                "Confidential": true,
+                                "Description": "String",
+                                "ReasonWithheld": "String",
+                                "IsMainAgencyAddress": true,
+                                "IsPhysicalAddress": true,
+                                "IsMailingAddress": true,
+                                "MetaData": {
+                                        "ID": "String",
+                                        "ResourceID": "String",
+                                        "FieldName": "String",
+                                        "PreviousValue": "String",
+                                        "UpdatedBy": "String"
+                                }
+                        },
+                        "NoPhysicalAddress": {
+                                "NoPhysicalAddress": true,
+                                "Description": "String",
+                                "Explanation": "String"
+                        },
+                        "OtherAddress": {
+                                "AddressID": "String",
+                                "Line1": "String",
+                                "Line2": "String",
+                                "City": "String",
+                                "County": "String",
+                                "State": "String",
+                                "ZipCode": "String",
+                                "Country": "String",
+                                "Confidential": true,
+                                "Description": "String",
+                                "ReasonWithheld": "String",
+                                "IsMainAgencyAddress": true,
+                                "IsPhysicalAddress": true,
+                                "IsMailingAddress": true,
+                                "MetaData": {
+                                        "ID": "String",
+                                        "ResourceID": "String",
+                                        "FieldName": "String",
+                                        "PreviousValue": "String",
+                                        "UpdatedBy": "String"
+                                }
+                        },
+                        "CrossStreet": "String",
+                        "Phone": {
+                                "Phone": "String",
+                                "Confidential": true,
+                                "ReasonWithheld": "String",
+                                "Description": "String",
+                                "Type": "String",
+                                "Function": "String",
+                                "TollFree": true,
+                                "Department": "String",
+                                "CountryPrefix": "String"
+                        },
+                        "URL": {
+                                "Address": "String",
+                                "Note": "String"
+                        },
+                        "InternetResource": {
+                                "Url": "String",
+                                "Description": "String"
+                        },
+                        "Email": "A@A.AA",
+                        "Contact": {
+                                "ID": "String",
+                                "AgencyID": "String",
+                                "ServiceID": "String",
+                                "Department": "String",
+                                "Title": "String",
+                                "Name": "String",
+                                "Nickname": "String",
+                                "ContactEmail": "A@A.AA",
+                                "ContactPhone": {
+                                        "Phone": "String",
+                                        "Confidential": true,
+                                        "ReasonWithheld": "String",
+                                        "Description": "String",
+                                        "Type": "String",
+                                        "Function": "String",
+                                        "TollFree": true,
+                                        "Department": "String",
+                                        "CountryPrefix": "String"
+                                },
+                                "ContactType": "String"
+                        },
+                        "OpenHours": {
+                                "dayOpen": "Friday",
+                                "TimeOpens": "09:30:47+05:00",
+                                "TimeCloses": "09:30:47+05:00"
+                        },
+                        "SpecialHours": {
+                                "SpecialHoursStartDate": "1957-08-13",
+                                "SpecialHoursEndDate": "1957-08-13",
+                                "SpecialOpenTime": "09:30:47+05:00",
+                                "SpecialCloseTime": "09:30:47+05:00"
+                        },
+                        "Languages": {
+                                "LanguageName": "String",
+                                "LanguageHours": {
+                                        "dayOpen": "Thursday",
+                                        "TimeOpens": "09:30:47+05:00",
+                                        "TimeCloses": "09:30:47+05:00"
+                                },
+                                "Notes": "String"
+                        },
+                        "DisabilitiesAccess": "String",
+                        "PhysicalLocationDescription": "String",
+                        "BusServiceAccess": "String",
+                        "SpatialLocation": {
+                                "Description": "String",
+                                "Datum": "String",
+                                "Latitude": "+0.0",
+                                "Longitude": "+0.0"
+                        },
+                        "Status": "active",
+                        "PublicAccessToTransportation": true,
+                        "ExcludeFromWebsite": true,
+                        "ExcludeFromDirectory": true,
+                        "MetaData": {
+                                "ID": "String",
+                                "ResourceID": "String",
+                                "FieldName": "String",
+                                "PreviousValue": "String",
+                                "UpdatedBy": "String"
+                        }
+                },
+                "Service": {
+                        "ID": "String",
+                        "Title": "String",
+                        "Description": "String",
+                        "AgencyID": "String",
+                        "SiteID": "String",
+                        "ServiceGroupID": "String",
+                        "ResourceInfo": {
+                                "Contact": {
+                                        "ID": "String",
+                                        "AgencyID": "String",
+                                        "ServiceID": "String",
+                                        "Department": "String",
+                                        "Title": "String",
+                                        "Name": "String",
+                                        "Nickname": "String",
+                                        "ContactEmail": "A@A.AA",
+                                        "ContactPhone": {
+                                                "Phone": "String",
+                                                "Confidential": true,
+                                                "ReasonWithheld": "String",
+                                                "Description": "String",
+                                                "Type": "String",
+                                                "Function": "String",
+                                                "TollFree": true,
+                                                "Department": "String",
+                                                "CountryPrefix": "String"
+                                        },
+                                        "ContactType": "String"
+                                },
+                                "ResourceSpecialist": "String",
+                                "AvailableForDirectory": true,
+                                "AvailableForReferral": true,
+                                "AvailableForResearch": true,
+                                "DateAdded": "1957-08-13",
+                                "DateLastVerified": "1957-08-13",
+                                "DateOfLastAction": "1957-08-13",
+                                "LastActionType": "String"
+                        },
+                        "WaitTime": "String",
+                        "ApplicationProcess": {
+                                "Title": "String",
+                                "Description": "String"
+                        },
+                        "MetaData": {
+                                "ID": "String",
+                                "ResourceID": "String",
+                                "FieldName": "String",
+                                "PreviousValue": "String",
+                                "UpdatedBy": "String"
+                        }
+                },
+                "SiteService": {
+                        "ID": "String",
+                        "SiteID": "String",
+                        "ServiceID": "String",
+                        "ServiceGroupID": "String",
+                        "AgencyID": "String",
+                        "Title": "String",
+                        "Description": "String",
+                        "Phone": {
+                                "Phone": "String",
+                                "Confidential": true,
+                                "ReasonWithheld": "String",
+                                "Description": "String",
+                                "Type": "String",
+                                "Function": "String",
+                                "TollFree": true,
+                                "Department": "String",
+                                "CountryPrefix": "String"
+                        },
+                        "Contact": {
+                                "ID": "String",
+                                "AgencyID": "String",
+                                "ServiceID": "String",
+                                "Department": "String",
+                                "Title": "String",
+                                "Name": "String",
+                                "Nickname": "String",
+                                "ContactEmail": "A@A.AA",
+                                "ContactPhone": {
+                                        "Phone": "String",
+                                        "Confidential": true,
+                                        "ReasonWithheld": "String",
+                                        "Description": "String",
+                                        "Type": "String",
+                                        "Function": "String",
+                                        "TollFree": true,
+                                        "Department": "String",
+                                        "CountryPrefix": "String"
+                                },
+                                "ContactType": "String"
+                        },
+                        "URL": {
+                                "Address": "String",
+                                "Note": "String"
+                        },
+                        "Email": "A@A.AA",
+                        "OpenHours": {
+                                "dayOpen": "Sunday",
+                                "TimeOpens": "09:30:47+05:00",
+                                "TimeCloses": "09:30:47+05:00"
+                        },
+                        "SpecialHours": {
+                                "SpecialHoursStartDate": "1957-08-13",
+                                "SpecialHoursEndDate": "1957-08-13",
+                                "SpecialOpenTime": "09:30:47+05:00",
+                                "SpecialCloseTime": "09:30:47+05:00"
+                        },
+                        "Seasonal": {
+                                "Description": "String",
+                                "SpecialHoursStartDate": "1957-08-13",
+                                "SpecialHoursEndDate": "1957-08-13",
+                                "SpecialOpenTime": "09:30:47+05:00",
+                                "SpecialCloseTime": "09:30:47+05:00"
+                        },
+                        "Taxonomy": {
+                                "taxonomyCode": "String",
+                                "taxonomyTerm": "String"
+                        },
+                        "Languages": {
+                                "LanguageName": "String",
+                                "LanguageHours": {
+                                        "dayOpen": "Sunday",
+                                        "TimeOpens": "09:30:47+05:00",
+                                        "TimeCloses": "09:30:47+05:00"
+                                },
+                                "Notes": "String"
+                        },
+                        "TranslationService": "String",
+                        "ServiceArea": {
+                                "Name": "String",
+                                "ZipCode": "String",
+                                "CensusTract": "String",
+                                "City": "String",
+                                "County": "String",
+                                "State": "String",
+                                "Country": "String",
+                                "Description": "String",
+                                "CustomAreaLabel": "String"
+                        },
+                        "ResourceInfo": {
+                                "Contact": {
+                                        "ID": "String",
+                                        "AgencyID": "String",
+                                        "ServiceID": "String",
+                                        "Department": "String",
+                                        "Title": "String",
+                                        "Name": "String",
+                                        "Nickname": "String",
+                                        "ContactEmail": "A@A.AA",
+                                        "ContactPhone": {
+                                                "Phone": "String",
+                                                "Confidential": true,
+                                                "ReasonWithheld": "String",
+                                                "Description": "String",
+                                                "Type": "String",
+                                                "Function": "String",
+                                                "TollFree": true,
+                                                "Department": "String",
+                                                "CountryPrefix": "String"
+                                        },
+                                        "ContactType": "String"
+                                },
+                                "ResourceSpecialist": "String",
+                                "AvailableForDirectory": true,
+                                "AvailableForReferral": true,
+                                "AvailableForResearch": true,
+                                "DateAdded": "1957-08-13",
+                                "DateLastVerified": "1957-08-13",
+                                "DateOfLastAction": "1957-08-13",
+                                "LastActionType": "String"
+                        },
+                        "InternetResource": {
+                                "Url": "String",
+                                "Description": "String"
+                        },
+                        "DocumentsRequired": {
+                                "Title": "String",
+                                "Description": "String"
+                        },
+                        "ApplicationProcess": {
+                                "Title": "String",
+                                "Description": "String"
+                        },
+                        "FeeStructure": "String",
+                        "PaymentMethodAccepted": "String",
+                        "GeneralEligibility": "String",
+                        "AgeRequirement": {
+                                "MinimumAge": "String",
+                                "MaximumAge": "String"
+                        },
+                        "GenderRequirement": {
+                                "Gender": "String",
+                                "MinimumAge": "String",
+                                "MaximumAge": "String"
+                        },
+                        "FamilyRequirements": "String",
+                        "IncomeRequirements": "String",
+                        "ResidencyRequirements": "String",
+                        "Status": "active",
+                        "ServiceNotAlwaysAvailable": true,
+                        "MetaData": {
+                                "ID": "String",
+                                "ResourceID": "String",
+                                "FieldName": "String",
+                                "PreviousValue": "String",
+                                "UpdatedBy": "String"
+                        }
+                },
+                "ServiceGroup": {
+                        "ID": "String",
+                        "Name": "String",
+                        "ProgramName": "String",
+                        "Description": "String",
+                        "ApplicationProcess": {
+                                "Title": "String",
+                                "Description": "String"
+                        },
+                        "ResourceInfo": {
+                                "Contact": {
+                                        "ID": "String",
+                                        "AgencyID": "String",
+                                        "ServiceID": "String",
+                                        "Department": "String",
+                                        "Title": "String",
+                                        "Name": "String",
+                                        "Nickname": "String",
+                                        "ContactEmail": "A@A.AA",
+                                        "ContactPhone": {
+                                                "Phone": "String",
+                                                "Confidential": true,
+                                                "ReasonWithheld": "String",
+                                                "Description": "String",
+                                                "Type": "String",
+                                                "Function": "String",
+                                                "TollFree": true,
+                                                "Department": "String",
+                                                "CountryPrefix": "String"
+                                        },
+                                        "ContactType": "String"
+                                },
+                                "ResourceSpecialist": "String",
+                                "AvailableForDirectory": true,
+                                "AvailableForReferral": true,
+                                "AvailableForResearch": true,
+                                "DateAdded": "1957-08-13",
+                                "DateLastVerified": "1957-08-13",
+                                "DateOfLastAction": "1957-08-13",
+                                "LastActionType": "String"
                         }
                 }
         }
