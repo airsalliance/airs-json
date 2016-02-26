@@ -67,7 +67,7 @@
                                 "Department": "String",
                                 "CountryPrefix": "String"
                         },
-                        "Url": {
+                        "URL": {
                                 "Address": "String",
                                 "Note": "String"
                         },
@@ -403,8 +403,8 @@
                                 "SpecialCloseTime": "09:30:47+05:00"
                         },
                         "Taxonomy": {
-                                "taxonomyCode": "String",
-                                "taxonomyTerm": "String"
+                                "TaxonomyCode": "String",
+                                "TaxonomyTerm": "String"
                         },
                         "Languages": {
                                 "LanguageName": "String",
